@@ -7,7 +7,6 @@ namespace App\Http;
 use Exception;
 use App\Exception\NotFoundException;
 
-
 class Router
 {
     public function __construct(private array $routes)

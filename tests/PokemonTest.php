@@ -13,9 +13,9 @@ class PokemonTest extends TestCase
     {
         $pokemon = new Pokemon(1, 'Charizard');
 
-        $pokemon->id; // 1
-        $pokemon->name; // Charizard
-        $pokemon->getImgUrl(); // Charizard img
+        $pokemon->id;
+        $pokemon->name;
+        $pokemon->getImgUrl();
 
         $this->assertSame(1, $pokemon->id);
         $this->assertSame('Charizard', $pokemon->name);

@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 namespace Tests\Http\RequestTest;
 
 use App\Http\Request;
